@@ -1,0 +1,7 @@
+/* <img src="http://dash.ga.co/assets/anna.png"
+    alt="My Picture of Myself">
+  <img src="C:\Users\MichaelF\Downloads\General Assembly\Project\houseworwebsmall50.JPG"
+    alt="My house in Worcester" style="float:left">
+  <img src="C:\Users\MichaelF\Downloads\General Assembly\Project\bakkeboat50.jpg"
+    alt="My Maternal Ancestors Fishing boat in Bergen" style="float:right">
+    */

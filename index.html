@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <title>About Me: Michael Friedman</title>
+  <!-- <time datetime="2014-07-18 11:00">07/18/2014 11:00</time> -->
+   <div id="carousel">
+<ul>
+  <li><img src="fish.jpg" alt="Fish" /></li>
+  <li><img src="elephant.jpg" alt="Elephant" /></li>
+  <li><img src="giraffe.jpg" alt="Giraffe" /></li>
+  <li><img src="penguins.jpg" alt="Penguins" /></li>
+</ul>
+<script>
+  $(document).ready(function(){
+  // Set the interval to be 5 seconds
+  var i = setInterval(function(){
+    $("#carousel ul").animate({marginLeft:-480},1000,function(){
+      $(this).find("li:last").after($(this).find("li:first"));
+      $(this).css({marginLeft:0});
+    })
+  },5000);
+});
+
+
+
+ window.onload = init;
+ </script>
+</div>
+  <style>
+  
+  </style>
+</head>
+
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="stylesheetweb.css" media="screen">
+
+<body>
+  <div id="div1">
+When will this page be updated?
+</div>
+<div id="div2">
+<a href="answer.html" id="c_link">Find out!</a>
+</div>
+<script type="text/javascript" src="prjs9_2.js"></script>
+ 
+    <!--  -->
+
+<!-- <div class="bottomleft"> -->
+     <div id="mainwrapper">
+ <!-- Image Caption 5 -->
+    <div id="box-5" class="box">
+        <div class="rotate"><!-- Rotating div -->
+            <img id="image-5" src="bakkeboat200x200.jpg"/>
+            <span class="caption rotate-caption">
+            <h3>This is rotate caption</h3>
+            <p>This is our Maternal Ancestors House and Fishing Boat in Bergen Norway at the turn of the 1900 century</p>
+            </span>
+        </div>
+    </div>
+    
+</div> <!-- end of #mainwrapper-->
+ 
+ <div id="mainwrapper2">
+<!-- Image Caption 6 -->
+    <div id="box-6" class="box">
+        <img id="image-6" src="houseworwebsmall50.jpg"/>
+        <span class="caption scale-caption">
+        <h3>Scale Caption</h3>
+        <p>Our Multi-Family House in Worcester, that my Mother-in-law lives in most of the time year round.</p>
+        </span>
+    </div>
+
+ </div>  <!-- end of #mainwrapper -->
+
+
+  <div class="centered">
+  <p>My Self-Portrait!<p>
+ </div>
+ 
+ <!-- <div class="topright">
+ </div>
+ -->
+ 
+  <h1>About Me!</h1>
+  <p>
+   <a href="about.html" target="_blank">I live in Oak Bluffs MA, and my contact information is 508-693-0056</a>
+  </p>
+  <h2>Experience!</h2>
+  <p>
+   <a href="mdfresume.docx" target="_blank">I am a former IT Bank Employee who has been in the IT field since 1994. Click Here to Open a Work Document with more Details!</a>
+  </p>
+
+</body>
+
+
+
