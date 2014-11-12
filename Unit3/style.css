@@ -1,0 +1,54 @@
+body {
+ 		 /*text-align: left;
+  		background-image:url("Assets/stripes.png"), url("Assets/background.jpg");
+  		background-repeat: repeat-x, no-repeat;
+      background-attachment: fixed;
+      background-position: ;
+      background-color: #51596A;
+  		color: white;
+  		font-family: helvetica;
+      line-height: 60px;*/
+}
+
+h1 { font-family: 'Seaweed Script', cursive, serif;
+      background-color: red;
+      font-weight: 400;
+      font-size: 48px;
+      text-shadow: 4px 4px 4px #aaa; }
+
+hr {
+    color: transparent;
+    background-color: red;
+    height: 6px;
+    width: 130px;
+  	/*width: 10%;*/
+  	margin-left: 5%;
+  	/*border-top: 2px solid:#ccc;*/
+}
+
+
+p {
+  font-family: 'Lobster Two', cursive, sans-serif;
+	
+	padding-left: 5%;
+	font-weight: bolder;
+	line-height: 50%;
+  	font-size: 22px;
+  }
+  
+
+  #logo{
+  	padding-top: 15%;
+  	padding-left: 5%;
+  }
+
+  #image-pad2 {
+  	padding-top: 3%;
+  	padding-left: 5%;
+  }
+
+  .pad {
+  		padding-left: 5%;
+  }
+
+  

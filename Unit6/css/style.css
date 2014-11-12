@@ -1,0 +1,58 @@
+body {
+ 		 text-align: center;
+  		background-image:url("Logo/bottom-of-the-sea.jpg");
+  		background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-size: 175%;
+   /*   background-position: absolute;*/
+      background-color: blue;
+  		color: white;
+  		font-family: helvetica;
+      line-height: 60px;
+}
+
+h1 { font-family: 'Limelight', cursive, sans-serif;
+      background-color: red;
+      display: inline;
+      font-weight: 400;
+      font-size: 48px;
+      text-shadow: 4px 4px 4px #aaa; 
+      text-transform: capitalize;
+    }
+
+  h2 {font-family: 'Lobster Two', cursive, serif;
+        text-align:  center;
+        display: inline-block;
+        background-color: light blue;
+        font-weight: 300;
+        font-size 30px;
+        text-shadow: 2px 2px 2px #aaa;
+        text-transform: capitalize;
+     }
+
+
+p {
+  font-family: 'Lobster Two', cursive, serif;
+	text-align: center;
+  color: black;
+  font-weight: lighter;
+  font-style: oblique;
+  line-height: 1.5em;
+  letter-spacing: 0.2em;
+  word-spacing: .25em;
+
+  /*overflow: scroll;*/
+	
+  }
+  
+
+  #logo{
+    margin: auto;
+  	/*padding-top: 0%;
+  	padding-left: 0%;*/
+  }
+
+
+
+  
