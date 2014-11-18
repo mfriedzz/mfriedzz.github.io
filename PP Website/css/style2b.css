@@ -1,5 +1,5 @@
 body {
-  border: 3px solid red;
+  /*border: 3px solid red;*/
   background-color: #FF8855;
   margin 0px;
   font-family: "Times New Roman" , serif;
@@ -9,7 +9,7 @@ body {
 }
 
 #container {
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   width: 960px;
   margin: 0px auto;
 }
@@ -81,7 +81,7 @@ nav {
 }
 
 nav a {
-  border: 3px solid yellow;
+  /*border: 3px solid yellow;*/
   background-color: #FF8855;
   color: white;
   text-decoration: none;
@@ -106,7 +106,7 @@ nav ul {
     }
      
 nav ul li {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     float:left;
     display:list-item;
     list-style: none; 
@@ -115,7 +115,7 @@ nav ul li {
     }
   
 nav ul li a {
-    border: 3px solid red;
+   /* border: 3px solid red;*/
     display:block;
     /*padding:15px 10px;  */
      
