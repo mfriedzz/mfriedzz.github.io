@@ -89,14 +89,41 @@
 	<!--  </header>   -->
 	 		
 	  		<div class="column" id="column1">
-	  			<h2>Couples Example 1</h2>
+	  			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  			 <div id="carousel">
+				<ul>
+  					<li><img src="logo/artdeco2.jpg" alt="Couple 1" /></li>
+  					<li><img src="logo/artdeco3.jpg" alt="Couple 2" /></li>
+  					<li><img src="logo/artdeco4.jpg" alt="Couple 3" /></li>
+  
+				</ul>
+			<script>
+ 			 $(document).ready(function(){
+  				// Set the interval to be 5 seconds
+  				var i = setInterval(function(){
+    			$("#carousel ul").animate({marginLeft:-480},1000,function(){
+      			$(this).find("li:last").after($(this).find("li:first"));
+      		$(this).css({marginLeft:0});
+   			 })
+  		},5000);
+});
+
+
+
+ 	window.onload = init;
+ 			
+ 			</script>
+ 		</div>
+		
+	  			<!-- <h2>Couples Example 1</h2>
 	  			<img src="logo/artdeco2.jpg" class="align-center small"/>
 	  			<p> This is the paragraph for Column 1
 	  				Here it is again for Column 1.
-	  			</p>
+	  			</p> -->
 	  		</div>
 
-	  		<div class="column" id="column2">
+	  		<!-- <div class="column" id="column2">
 	  			<h2>Couples with Kids Example 2</h2>
 	  			<img src="logo/artdeco3.jpg" class="align-center small"/>
 	  			<p> This is the paragraph for Column 2
@@ -110,7 +137,7 @@
 	  			<p> This is the paragraph for Column 3
 	  				Here it is again for Column 3.
 	  			</p>
-	  		</div>
+	  		</div> -->
 	<aside>
 		<br />
 		<h1>Here is the latest News!</h1>

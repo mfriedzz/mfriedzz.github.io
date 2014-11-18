@@ -57,7 +57,7 @@ h1 { font-family: 'Limelight', cursive, serif;
 aside {
   background-color: #66BB66;
   border: 3px solid black;
-  float: right;
+  float: left;
   font-size: 28px;
   height:400px;
   width: 340px;
@@ -184,9 +184,11 @@ li > a:only-child:after { content: ''; }
 
  .column {
     border: 3px solid black;
- 		float: left;
- 		height: 375px;
-    width:  297px;
+ 		float: right;
+    height: auto;
+    width: auto;
+ 		/*height: 375px;
+    width:  297px;*/
  		padding: 15px;
  		margin: 2px;
  }
@@ -245,3 +247,23 @@ img.align-center {
   display: block;
   margin: 0px auto;
 }
+
+#carousel {
+    width: 480px;
+    overflow:hidden;
+  }
+
+  #carousel ul {
+    width: 1920px;
+ /*   width:auto;*/
+    padding: 0;
+    margin: 0;
+  }
+
+  #carousel ul li {
+    width:480px;
+    text-align: right;
+    height: 280px;
+    list-style: none;
+    float: left;
+  }
