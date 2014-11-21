@@ -17,24 +17,24 @@ body {
 header {
   /*background: url("../logo/cubanartdeco.jpg");
   background-repeat:  repeat-x;*/
-/*  width: 960px;
-  height: 52px;*/
-  /*text-align: left;
+  width: 960px;
+  height: 52px;
+  text-align: left;
   padding: 10px;
-  display: inline;*/
+  display: inline;
   /*margin: 0px auto;*/
  }
 
 #Logo{
- /* border: 3px solid black; */
+  /*border: 2px dashed purple; */
      /*background-color: rgba(255,0,0,0.5);*/
-      padding: 0% 0% 0% 25%;
+      padding: 2px;
       display: inline;
       /*text-shadow: 3px 3px 3px #aaa; */
       
-    margin: 5px auto;
- 
-  /*float: left;*/
+  /*margin: 1px auto;*/
+  padding: 5px;
+  float: left;
   
   }
 
@@ -97,12 +97,12 @@ nav a:hover {
 }
 
 nav ul {
-    border: 3px solid black;
-    padding: 12px;
-    margin: 15px;
+   /* border: 3px solid black;*/
+    padding: 20px;
+    margin: 4px;
     list-style: none;
     position: relative;
-    display: inline-block;
+    display:block;
     }
      
 nav ul li {
@@ -205,10 +205,10 @@ li > a:only-child:after { content: ''; }
  }
 
 img.custom {
-  width: 16%;
-  height: 16%;
-/*  width: 200px;
-  height: 95px;*/
+  /*width: 45%;
+  height: 45%;*/
+  width: 200px;
+  height: 95px;
 }
 
 img.large {
