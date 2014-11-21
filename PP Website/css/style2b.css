@@ -58,9 +58,12 @@ aside {
   background-color: #66BB66;
   border: 3px solid black;
   float: left;
+  color:black;
   font-size: 28px;
-  height:400px;
-  width: 340px;
+  /*height:400px;
+  width: 340px;*/
+  /*height: auto;*/
+  width: 58%;
   padding:  5px ;
   margin: 0px 20px 0 0;
 }
@@ -267,3 +270,22 @@ img.align-center {
     list-style: none;
     float: left;
   }
+
+  /*   <<<<<  Media Queries >>>>> */
+/* iphone portrait or landscape (up to 480px) */
+@media all and (max-width: 30em) {
+
+}
+/* ipad portrait (up to 768px) */
+@media all and (min-width:30.0625em) and (max-width: 48em) {
+
+}
+/* ipad landscape (up to 1024px) */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* all screens > 1024px */
+@media all and (min-width: 64.0625em) {
+
+}
