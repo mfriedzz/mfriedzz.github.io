@@ -46,7 +46,7 @@ header {
   }
 
   label {
-      cursor: progress;
+      cursor: crosshair;
   }
 
   #logo img {
@@ -201,6 +201,7 @@ li > a:only-child:after { content: ''; }
   margin: .5em;
   background:#ffffff;
 }
+
 .nav_sm li {
     padding: 1em;
     background: #ffffff;
@@ -218,6 +219,8 @@ li > a:only-child:after { content: ''; }
 
 .nav_sm li a:hover {
   text-decoration: none;
+  /*color: #333333;
+  font-weight: 800;*/
 }
 
 /* ------------------ Toggle Menu ----------------- */
@@ -368,13 +371,13 @@ img.align-center {
   } 
 
 /* iphone portrait or landscape (up to 480px) */
-@media all and (max-width: 480px) {
+/*@media all and (max-width: 480px) {
 
    footer, aside { width: 100%;
         display: block;
         float:left;}
 }
-
+*/
 
 /* ipad portrait (up to 768px) */
 /*@media all and (min-width:481px) and (max-width: 768px) {
