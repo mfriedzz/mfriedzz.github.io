@@ -17,24 +17,24 @@ body {
 header {
   /*background: url("../logo/cubanartdeco.jpg");
   background-repeat:  repeat-x;*/
-  width: 960px;
-  height: 52px;
-  text-align: left;
+/*  width: 960px;
+  height: 52px;*/
+  /*text-align: left;
   padding: 10px;
-  display: inline;
+  display: inline;*/
   /*margin: 0px auto;*/
  }
 
 #Logo{
-  /*border: 2px dashed purple; */
+ /* border: 3px solid black; */
      /*background-color: rgba(255,0,0,0.5);*/
-      padding: 2px;
+      padding: 0% 0% 0% 25%;
       display: inline;
       /*text-shadow: 3px 3px 3px #aaa; */
       
-  /*margin: 1px auto;*/
-  padding: 5px;
-  float: left;
+    margin: 5px auto;
+ 
+  /*float: left;*/
   
   }
 
@@ -58,9 +58,12 @@ aside {
   background-color: #66BB66;
   border: 3px solid black;
   float: left;
+  color:black;
   font-size: 28px;
-  height:400px;
-  width: 340px;
+  /*height:400px;
+  width: 340px;*/
+  /*height: auto;*/
+  width: 58%;
   padding:  5px ;
   margin: 0px 20px 0 0;
 }
@@ -97,12 +100,12 @@ nav a:hover {
 }
 
 nav ul {
-   /* border: 3px solid black;*/
-    padding: 20px;
-    margin: 4px;
+    border: 3px solid black;
+    padding: 12px;
+    margin: 15px;
     list-style: none;
     position: relative;
-    display:block;
+    display: inline-block;
     }
      
 nav ul li {
@@ -205,10 +208,10 @@ li > a:only-child:after { content: ''; }
  }
 
 img.custom {
-  /*width: 45%;
-  height: 45%;*/
-  width: 200px;
-  height: 95px;
+  width: 16%;
+  height: 16%;
+/*  width: 200px;
+  height: 95px;*/
 }
 
 img.large {
@@ -267,3 +270,28 @@ img.align-center {
     list-style: none;
     float: left;
   }
+
+  /*   <<<<<  Media Queries >>>>> */
+/* iphone portrait or landscape (up to 480px) */
+@media all and (max-width: 30em) {
+
+}
+/* ipad portrait (up to 768px) */
+@media all and (min-width:30.0625em) and (max-width: 48em) {
+
+}
+/* ipad landscape (up to 1024px) */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* all screens > 1024px */
+@media all and (min-width: 64.0625em) {
+
+}
+
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}

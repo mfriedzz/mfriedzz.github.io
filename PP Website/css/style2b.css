@@ -1,16 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   /*border: 3px solid red;*/
   background-color: #FF8855;
   margin 0px;
   font-family: "Times New Roman" , serif;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 16px;
   color:blue;
 }
 
 #container {
   /*border: 3px solid black;*/
-  width: 960px;
+  /*width: 960px;*/
+  width: 64em;
   margin: 0px auto;
 }
 
@@ -26,16 +33,20 @@ header {
  }
 
 #Logo{
- /* border: 3px solid black; */
+  border: 3px solid black; 
      /*background-color: rgba(255,0,0,0.5);*/
-      padding: 0% 0% 0% 25%;
+      padding: 0% 0% 0% 0%;
       display: inline;
       /*text-shadow: 3px 3px 3px #aaa; */
       
-    margin: 5px auto;
+    margin: .5% .5% .5% 25%;
  
   /*float: left;*/
   
+  }
+
+  label {
+      cursor: progress;
   }
 
   #logo img {
@@ -63,16 +74,16 @@ aside {
   /*height:400px;
   width: 340px;*/
   /*height: auto;*/
-  width: 58%;
-  padding:  5px ;
-  margin: 0px 20px 0 0;
+  width: 50%;
+  padding:  0 2% 2% 5% ;
+  margin: 0% 0% 1% 1%;
 }
 
 nav {
   /*width: 960px;*/
   width: auto;
   height: auto;
-  margin: auto 0px;
+  margin: 1% 1% 1% 1%;
   border: 3px solid black;
   margin-top: 5px;
   display: block;
@@ -163,6 +174,66 @@ nav ul ul ul li {
 li > a:after { content: ' >>'; } 
 li > a:only-child:after { content: ''; }     
 
+/*   ----------------- Large nav ----------------- */
+.nav_lg ul {
+    list-style: none;
+    margin: 1em .5em;
+}
+
+.nav_lg li {
+  display: inline;
+  padding: 1em;
+}
+
+.nav_lg li a {
+  text-decoration: none;
+  font-weight: 80%;
+}
+
+/*   ----------------- Small Nav ---------------- */
+
+.nav_sm {
+  display: none;
+}
+
+.nav_sm ul {
+  list-style: none;
+  margin: .5em;
+  background:#ffffff;
+}
+.nav_sm li {
+    padding: 1em;
+    background: #ffffff;
+}
+
+.nav_sm li:hover {
+  background: red;
+}
+
+.nav_sm li a{
+  text-decoration: none;
+  color: #33333333;
+  font-weight: 800;
+}
+
+.nav_sm li a:hover {
+  text-decoration: none;
+}
+
+/* ------------------ Toggle Menu ----------------- */
+
+#menu-toggle {
+  display: none;  /* hide the checkbox */
+}
+
+#menu {
+  display: none;  /* hide the menu items */
+}
+
+#menu-toggle: checked + #menu {
+  display: block;
+}
+
 
 
 .clearfix:after {
@@ -177,8 +248,9 @@ li > a:only-child:after { content: ''; }
 
  footer {
   border: 5px solid black;
-  width: 960px;
-  height: auto;
+  /*width: 960px;*/
+  width: 100%;
+  height: 100%;
   clear:both;
  	background-color: #FF8855;
  	text-align: center;
@@ -252,7 +324,9 @@ img.align-center {
 }
 
 #carousel {
-    width: 480px;
+    /*width: 480px;*/
+    width: 600px;
+    height: 375px;
     overflow:hidden;
   }
 
@@ -264,7 +338,8 @@ img.align-center {
   }
 
   #carousel ul li {
-    width:480px;
+    /*width:480px;*/
+    width: 600px;
     text-align: right;
     height: 280px;
     list-style: none;
@@ -272,20 +347,60 @@ img.align-center {
   }
 
   /*   <<<<<  Media Queries >>>>> */
+
+
+  @media screen and (max-width:580px){
+
+      nav {
+          width: 90%;
+          margin: 1em;
+          float: left;
+          clear: both;
+      }
+
+      .nav_sm {
+        display: block;
+      }
+
+      .nav_lg {
+          display: none;
+      }
+  } 
+
 /* iphone portrait or landscape (up to 480px) */
-@media all and (max-width: 30em) {
+@media all and (max-width: 480px) {
 
+   footer, aside { width: 100%;
+        display: block;
+        float:left;}
 }
+
+
 /* ipad portrait (up to 768px) */
-@media all and (min-width:30.0625em) and (max-width: 48em) {
+/*@media all and (min-width:481px) and (max-width: 768px) {
+     footer, aside {
+          width:50%;
+    }
 
-}
+}*/
 /* ipad landscape (up to 1024px) */
-@media all and (min-width: 769px) and (max-width: 1024px) {
+/*@media all and (min-width: 769px) and (max-width: 1024px) {
 
-}
+     footer, aside {
+            width: 33.33%;
+    }
+}*/
 
 /* all screens > 1024px */
-@media all and (min-width: 64.0625em) {
+/*@media all and (min-width: 1025px) {
 
-}
+      footer {
+        width: 100%;
+    }
+}*/
+    
+
+/*@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}*/
