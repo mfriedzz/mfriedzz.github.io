@@ -21,6 +21,78 @@ body {
   margin: 0px auto;
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+/*   ----------------- Large nav ----------------- */
+.nav_lg ul {
+    list-style: none;
+    margin: 1em .5em;
+}
+
+.nav_lg li {
+  display: inline;
+  padding: 1em;
+}
+
+.nav_lg li a {
+  text-decoration: none;
+  font-weight: 80%;
+}
+
+/*   ----------------- Small Nav ---------------- */
+
+.nav_sm {
+  display: none;
+}
+
+.nav_sm ul {
+  list-style: none;
+  margin: .5em;
+  background:#ffffff;
+}
+
+.nav_sm li {
+    padding: 1em;
+    background: #ffffff;
+}
+
+.nav_sm li:hover {
+  background: red;
+}
+
+.nav_sm li a{
+  text-decoration: none;
+  color: #333333;
+  font-weight: 800;
+}
+
+.nav_sm li a:hover {
+  text-decoration: none;
+  /*color: #333333;
+  font-weight: 800;*/
+}
+
+/* ------------------ Toggle Menu ----------------- */
+
+#menu-toggle {
+  display: none;  /* hide the checkbox */
+}
+
+#menu {
+  display: none;  /* hide the menu items */
+}
+
+#menu-toggle: checked + #menu {
+  display: block;
+}
+
 header {
   /*background: url("../logo/cubanartdeco.jpg");
   background-repeat:  repeat-x;*/
@@ -174,72 +246,10 @@ nav ul ul ul li {
 li > a:after { content: ' >>'; } 
 li > a:only-child:after { content: ''; }     
 
-/*   ----------------- Large nav ----------------- */
-.nav_lg ul {
-    list-style: none;
-    margin: 1em .5em;
-}
-
-.nav_lg li {
-  display: inline;
-  padding: 1em;
-}
-
-.nav_lg li a {
-  text-decoration: none;
-  font-weight: 80%;
-}
-
-/*   ----------------- Small Nav ---------------- */
-
-.nav_sm {
-  display: none;
-}
-
-.nav_sm ul {
-  list-style: none;
-  margin: .5em;
-  background:#ffffff;
-}
-
-.nav_sm li {
-    padding: 1em;
-    background: #ffffff;
-}
-
-.nav_sm li:hover {
-  background: red;
-}
-
-.nav_sm li a{
-  text-decoration: none;
-  color: #33333333;
-  font-weight: 800;
-}
-
-.nav_sm li a:hover {
-  text-decoration: none;
-  /*color: #333333;
-  font-weight: 800;*/
-}
-
-/* ------------------ Toggle Menu ----------------- */
-
-#menu-toggle {
-  display: none;  /* hide the checkbox */
-}
-
-#menu {
-  display: none;  /* hide the menu items */
-}
-
-#menu-toggle: checked + #menu {
-  display: block;
-}
 
 
 
-.clearfix:after {
+/*.clearfix:after {
 	visibility: hidden;
 	display: block;
 	content: " ";
@@ -247,7 +257,7 @@ li > a:only-child:after { content: ''; }
 	height: 0;
 	font-size: 0;
 }
- 
+ */
 
  footer {
   border: 5px solid black;
@@ -402,8 +412,8 @@ img.align-center {
     }
 }*/
     
-
-/*@viewport {
+/*
+@viewport {
     zoom: 1.0;
     width: extend-to-zoom;
 }*/
