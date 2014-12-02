@@ -80,6 +80,9 @@ body {
 }
 
 /* ------------------ Toggle Menu ----------------- */
+label {
+      cursor: pointer;
+  }
 
 #menu-toggle {
   display: none;  /* hide the checkbox */
@@ -89,7 +92,7 @@ body {
   display: none;  /* hide the menu items */
 }
 
-#menu-toggle: checked + #menu {
+#menu-toggle:checked + #menu {
   display: block;
 }
 
@@ -117,9 +120,7 @@ header {
   
   }
 
-  label {
-      cursor: crosshair;
-  }
+  
 
   #logo img {
     width: 100%;
@@ -364,11 +365,27 @@ img.align-center {
 
   @media screen and (max-width:580px){
 
-      nav {
+      /*nav {
           width: 90%;
           margin: 1em;
           float: left;
           clear: both;
+      }*/
+
+  nav {
+        /*width: 960px;*/
+        width: 80%;
+        float:left;
+        /*height: auto;
+        margin: 1% 1% 1% 1%;
+        border: 3px solid black;
+        margin-top: 5px;
+        display: block;*/
+        background-color: #66BB66;
+        font-family: Limelight, cursive, serif;
+        font-size:  11px;
+        text-transform: uppercase;
+        clear:both;
       }
 
       .nav_sm {
