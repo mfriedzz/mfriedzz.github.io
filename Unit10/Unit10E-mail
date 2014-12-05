@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+    <html>
+  <head>
+  <title>Purple People</title>
+ </head>
+ 
+<body>
+  <table border="0" cellspacing="0" width="100%"
+         style="font-family: Limelight, cursive, serif; background:#66BB66; font-size: 16px;
+                line-height: 2.5;">
+    <tr>
+      <th>
+      <h1>Purple People</h1>
+      </th>
+      <td>
+        <table cellspacing="20" align="center" border="0">
+          <tr>
+            <td><a href="#" style="text-decoration:none; color:black;">work</a></td>
+            <td><a href="#" style="text-decoration:none; color:black;">about</a></td>
+            <td><a href="#" style="text-decoration:none; color:black;">contact</a></td>
+          </tr>
+        </table>
+          </td>
+    </tr>
+    <tr>
+<td colspan="2" align="center" style="background: #64abfb;"><img src="http://s17.postimg.org/6k39jjgsf/purplepeople2.gif" style="width: 600px;"  alt="Meet People!" title="Purple People People"></td>
+    </tr>
+    <tr>
+       <td width="50%" style="background:#FF8855; color: white; padding: 1em;" valign="top">
+   <h2 style="color: #fffebb text-transform: uppercase; border-bottom: 4px solid black; display: inline-block;">Who we are</h2>
+     <p>Purple People helps Couples meet other Couples with or without kids, socially</p>
+      </td>
+       <td style="background:#FF8855; color: black; padding: 1em;" valign="top">
+  <h2 style="color: #fffebb; text-transform: uppercase; border-bottom: 4px solid black; display: inline-block;">What we do</h2>
+  	<table cellpadding="20" cellspacing="0" border="0" style="background: white;">
+      <tr>
+        <td width="50%">HTML</td>
+        <td>CSS</td>
+      </tr>
+      <tr>
+        <td>Responsive</td>
+        <td>Visual Design</td>
+      </tr>
+     </table>
+      </td>
+    </tr>
+  <tr>
+    <td colspan="2" align="center" cellpadding="20"><a href="#">Click to Unsubscribe</a></td>
+  </tr>
+  </table>
+</body>
+  
+</html>
