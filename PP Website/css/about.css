@@ -5,7 +5,6 @@
 }
 
 body {
-  /*border: 3px solid red;*/
   background-color: #FF8855;
   margin 0px;
   font-family: "Times New Roman" , serif;
@@ -29,8 +28,6 @@ body {
   height: 0;
   font-size: 0;
 }
-
-
 
 /*   ----------------- Large nav ----------------- */
 .nav_lg ul {
@@ -87,7 +84,6 @@ body {
 label {
       cursor: pointer;
   }
-
 #menu-toggle {
   display: none;  /* hide the checkbox */
 }
@@ -101,17 +97,10 @@ label {
 }
 
 header {
-  /*background: url("../logo/cubanartdeco.jpg");
-  background-repeat:  repeat-x;*/
-/*  width: 960px;
-  height: 52px;*/
-  /*text-align: left;
-  padding: 10px;
-  display: inline;*/
-  /*margin: 0px auto;*/
- }
 
-#Logo{
+}
+
+#Logo {
   border: 3px solid black; 
      /*background-color: rgba(255,0,0,0.5);*/
       padding: 0% 0% 0% 0%;
@@ -124,7 +113,6 @@ header {
   
   }
 
-  
 
   #logo img {
     width: 100%;
@@ -138,25 +126,30 @@ h1 { font-family: 'Limelight', cursive, serif;
       display: inline-block;
       font-weight: 400;
       font-size: 38px;
-      text-shadow: 4px 4px 4px #aaa; 
+      /*text-shadow: 4px 4px 4px #aaa; */
       text-transform: capitalize;
     }
 
-aside {
-  background-color: #66BB66;
-  border: 3px solid black;
-  float: left;
-  color:black;
-  font-size: 28px;
-  /*height:400px;
-  width: 340px;*/
-  /*height: auto;*/
-  width: 45%;
-  padding:  0 2% 2% 5% ;
-  margin: 0% 0% 1% 1%;
+footer {
+  border: 5px solid black;
+  /*width: 960px;*/
+  width: 100%;
+  height: 100%;
+  clear:both;
+  background-color: #FF8855;
+  text-align: center;
+  padding: 20px;
+ }
+
+#policies ul a {
+
+  display:inline-block;
+  float:left;
+  padding: 0 0 0 15%;
+  margin: 1%;
 }
 
-nav {
+  nav {
   /*width: 960px;*/
   width: auto;
   height: auto;
@@ -214,7 +207,7 @@ nav ul li a {
     text-decoration:none;
   /* font-family: 'Bree Serif', 'serif';*/
 }
-  
+
 li a:hover { background-color: #2ecc71; }
 
 /* The Dropdown Styles */
@@ -250,51 +243,6 @@ nav ul ul ul li {
 li > a:after { content: ' >>'; } 
 li > a:only-child:after { content: ''; }     
 
-
-
-
-/*.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
- */
-
- footer {
-  border: 5px solid black;
-  /*width: 960px;*/
-  width: 100%;
-  height: 100%;
-  clear:both;
- 	background-color: #FF8855;
- 	text-align: center;
- 	padding: 20px;
- }
-
- .column {
-    border: 3px solid black;
- 		float: right;
-    height: auto;
-    width: auto;
- 		/*height: 375px;
-    width:  297px;*/
- 		padding: 15px;
- 		margin: 2px;
- }
-
- #column1{
- 	background-color: #66bb66;
- }
- #column2 {
- 	background-color: #66bb66;
- 	 }
-
- #column3 {
- 	background-color: #66BB66;
- }
 
 img.custom {
   width: 16%;
@@ -339,31 +287,7 @@ img.align-center {
   display: block;
   margin: 0px auto;
 }
-
-#carousel {
-    /*width: 480px;*/
-    width: 600px;
-    height: 375px;
-    overflow:hidden;
-  }
-
-  #carousel ul {
-    width: 1920px;
- /*   width:auto;*/
-    padding: 0;
-    margin: 0;
-  }
-
-  #carousel ul li {
-    /*width:480px;*/
-    width: 600px;
-    text-align: right;
-    height: 280px;
-    list-style: none;
-    float: left;
-  }
-
-  /*   <<<<<  Media Queries >>>>> */
+/*   <<<<<  Media Queries >>>>> */
 
 
   @media screen and (max-width:580px){
@@ -386,41 +310,3 @@ img.align-center {
           display: none;
       }
   } 
-
-/* iphone portrait or landscape (up to 480px) */
-/*@media all and (max-width: 480px) {
-
-   footer, aside { width: 100%;
-        display: block;
-        float:left;}
-}
-*/
-
-/* ipad portrait (up to 768px) */
-/*@media all and (min-width:481px) and (max-width: 768px) {
-     footer, aside {
-          width:50%;
-    }
-
-}*/
-/* ipad landscape (up to 1024px) */
-/*@media all and (min-width: 769px) and (max-width: 1024px) {
-
-     footer, aside {
-            width: 33.33%;
-    }
-}*/
-
-/* all screens > 1024px */
-/*@media all and (min-width: 1025px) {
-
-      footer {
-        width: 100%;
-    }
-}*/
-    
-/*
-@viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
-}*/
